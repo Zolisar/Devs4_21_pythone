@@ -1,0 +1,15 @@
+
+def perimeter(l, w):
+    return 2*(l+w)
+
+def area(len, wid):
+    return length*width
+
+if __name__ == '__main__':
+    length=int(input("Enter the length"))
+    width=int(input("Enter the width"))
+    sum=perimeter(length, width)
+    num=area(length, width)
+    print("The perimeter of this triangle is ",sum)
+    print("The area of this triangle is ",num)
+
